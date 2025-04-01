@@ -26,6 +26,9 @@ const browserPaths = {
     darwin: '/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge',
     linux: '/usr/bin/microsoft-edge',
   },
+  arc: {
+    darwin: '/Applications/Arc.app/Contents/MacOS/Arc',
+  }
 };
 
 const getBrowserPath = (browser) => {
